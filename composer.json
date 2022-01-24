@@ -3,14 +3,20 @@
     "description": "Paytm integration",
     "type": "project",
     "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
         "paytm/paytmchecksum": "dev-master",
-        "guzzlehttp/guzzle": "7.4.x-dev"
+        "guzzlehttp/guzzle": "7.4.x-dev",
+        "vlucas/phpdotenv": "5.4.x-dev"
     },
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "InteractionDesignFoundation\\PaytmIntegration\\": "src/"
+            "paytm\\paytmchecksum\\": "paytmchecksum/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev": {
+        "symfony/var-dumper": "6.1.x-dev"
+    }
 }
