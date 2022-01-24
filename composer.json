@@ -1,0 +1,16 @@
+{
+    "name": "interaction-design-foundation/paytm-integration",
+    "description": "Paytm integration",
+    "type": "project",
+    "require": {
+        "paytm/paytmchecksum": "dev-master",
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "InteractionDesignFoundation\\PaytmIntegration\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
