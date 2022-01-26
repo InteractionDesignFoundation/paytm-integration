@@ -12,6 +12,7 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
+            "InteractionDesignFoundation\\PaytmIntegration\\": "src/",
             "paytm\\paytmchecksum\\": "paytmchecksum/"
         }
     },
